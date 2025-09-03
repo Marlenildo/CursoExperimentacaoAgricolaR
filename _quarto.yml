@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Curso de R"
+  navbar:
+    background: dark
+    foreground: light
+    left:
+      - href: index.qmd
+        text: "Apresentação do curso"
+      - href: codigos.qmd
+        text: "Programando em R"
+      - href: graficos.qmd
+        text: "Construindo gráficos"
+      - href: about.qmd
+        text: "Sobre mim"
+
+  page-footer:
+    center: |
+      [Apresentação](index.qmd) • [Códigos](codigos.qmd) • [Sobre mim](about.qmd)  
+      <i class="fa-brands fa-r-project"></i> Este site foi desenvolvido utilizando a própria linguagem R.  
+
+format:
+  html:
+    theme: cosmo
+    # css: styles.css
+    toc: true
+
